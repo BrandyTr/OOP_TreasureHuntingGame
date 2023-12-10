@@ -55,6 +55,7 @@ public class Player extends Entity{
             if (keyH.upPressed == true) {
                 direction = "up";
                 worldY -= speech;
+                System.out.println("Test");
             }
             else if (keyH.downPressed == true) {
                 direction = "down";
